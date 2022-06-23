@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Staging Demo</title>
+</head>
+<body>
+
+  <p>Here is an embedded room:</p>
+
+  <div style="margin: 2em auto; max-width: 800px;">
+
+    <!-- SignalWire Video Room -->
+<script>!function(e,t){function i(){let t=Object.assign({rootElement:r},e.swvr.p)
+;SignalWire.AppKit.VideoConference(t)}e.swvr=e.swvr||function(t={}){
+Object.assign(e.swvr.p=e.swvr.p||{},t)}
+;let r=t.currentScript,n=t.createElement("script")
+;n.type="module",n.src="https://unpkg.com/@signalwire/app-kit@dev/dist/signalwire/signalwire.esm.js",
+n.defer=!0,n.onload=i,r.parentNode.insertBefore(n,r)
+;let s=t.createElement("script")
+;s.type="text/javascript",s.noModule=!0,s.src="https://unpkg.com/@signalwire/app-kit@dev/dist/signalwire/signalwire.js",
+s.defer=!0,s.onload=i,r.parentNode.insertBefore(s,r)
+;let o=t.createElement("link")
+;o.type="text/css",o.rel="stylesheet",o.href="https://unpkg.com/@signalwire/app-kit@dev/dist/signalwire/signalwire.css",
+r.parentNode.insertBefore(o,r),e.SignalWire=e.SignalWire||{Prebuilt:{
+VideoRoom:e.swvr},AppKit:{VideoConference:e.swvr}}}(window,document);
+SignalWire.AppKit.VideoConference({
+  token: 'vpt_bf4c293c491ea0c5a3c44ed6557df4c1',
+  // userName: 'your-name',
+});</script>
+    <!-- End SignalWire Video Room -->
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+
